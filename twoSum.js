@@ -23,8 +23,8 @@ var test_nums = [2,11,7,15];
 var test_target=9;
 console.log(twosum(test_nums,test_target));
 
-var test_nums = [2,11,7,15,100];
-var test_target=17;
+test_nums = [2,11,7,15,100];
+test_target=17;
 console.log(twosum(test_nums,test_target));
 
 test_nums = [2,11,7,15];
