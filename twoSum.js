@@ -1,5 +1,5 @@
 function twosum(nums, target) {
-// first way： two loop loop 1 nums【i=0~num.length】，loop 2 num【j=i+1~num.length】check this nums【i】+nums【j】===target if is true return output【i,j】time compx：n2 space compx ：1
+// first way： two loop loop 1 nums【i=0~num.length-1】，inside there is loop 2 num【j=i+1~num.length-1】check this nums【i】+nums【j】===target if is true return output【i,j】time compx：n2 space compx ：1
     const pairLookup ={};
     for (let i=0; i<nums.length; i++){
         pairLookup[nums[i]]=i;
